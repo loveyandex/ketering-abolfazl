@@ -1,0 +1,352 @@
+@font-face {
+  font-family: "dana";
+  src: url("/fonts/dana/dana-regular.woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+a,p,span,ul,li,h1,h2,h3,h4,h5,h6,td,tr,th,button,input,label{
+  font-family: dana  !important;
+}
+
+
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family:"dana-regular";
+    direction: rtl;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo{
+  width: 70px;
+  display: inline-flex;
+}
+
+.name-shop{
+  display: inline-flex;
+  top:22px ;
+  position: absolute;
+  font-size: 20px;
+  align-items: flex-end;
+  margin-right: 10px;
+  color: rgb(41, 41, 41);
+}
+
+.col-first{
+  padding: 5px;
+}
+
+.MuiInputLabel-formControl {
+  top: 0;
+  right: 28px;
+}
+
+.MuiInputBase-input.MuiFilledInput-input.MuiInputBase-inputTypeSearch{
+  padding: 0px 12px 10px;
+}
+
+.MuiFilledInput-root{
+background-color:rgb(69 176 223 / 17%)  !important;
+padding: 1px 12px 10px !important;
+}
+
+.MuiFormControl-root.MuiTextField-root {
+  width: 300px;
+}
+
+svg.search-header {
+  fill: white;
+  padding: 7px;
+  border-radius: 5px 0 0 5px;
+  font-size: 40px;
+  background-color: #1099d6;
+}
+
+svg.MuiSvgIcon-root.account {
+  float: left  !important;
+  font-size: 25px;
+  color: #667e89;
+  margin: 13px;
+}
+
+
+.search-box{
+  text-align: center;
+  margin-top: 11px;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+ 
+  transform: scale(1) translate(0,0)  !important;
+}
+
+.account-box {
+  float: left;
+  width: 55px;
+  height: 55px;
+  }
+
+
+.search-header-input .MuiFilledInput-underline:before {
+ 
+   border-bottom: unset; 
+}
+
+.search-header-input .MuiFilledInput-root {
+  position: relative;
+  transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  background-color: rgba(0, 0, 0, 0.09);
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+header {
+  padding: 10px 5px 0px 3px;
+}
+
+@media only screen and (max-width: 770px) {  
+
+.grid-logo{
+  order:1
+}
+
+.grid-cart{
+  order:2
+}
+
+.grid-search{
+  order:3
+}
+
+.logo {
+  width: 50px;
+}
+
+.name-shop {
+  font-size: 14px;
+  top: 11px;
+}
+
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+   padding: 0  !important; 
+}
+
+button.MuiButtonBase-root.MuiIconButton-root.account-box{
+  border-radius: 6px;
+  width: 45px;
+  margin: 11px 5px 0px 5px;
+  height: 45px;
+  background-color: #80808014;
+
+}
+.MuiFormControl-root.MuiTextField-root.search-header-input{
+width: 85%;
+}
+}
+
+.sabt-logo{
+  text-align: center;
+}
+
+
+.search-center .MuiFilledInput-root {
+  background-color: rgb(214 214 214 / 17%) !important;
+  padding: 12px 0px 13px !important;
+
+}
+
+.search-center svg.search-header {
+  fill: white;
+  padding: 7px;
+  border-radius: 30px 0 0 30px;  
+  background-color: #1099d6;
+  font-size: 53px;
+}
+
+.search-center .MuiFilledInput-root {
+  background-color: rgb(214 214 214 / 17%) !important;
+  padding: 12px 0px 13px !important;
+}
+.search-center .search-header-input .MuiFilledInput-root {
+  position: relative;
+  transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  background-color: rgba(0, 0, 0, 0.09);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.nav-backgr{
+  background-color: #fafbfb;
+  margin-bottom: 15px  !important;
+}
+
+.sabt-logo .logo {
+  width: 100px;
+  margin-bottom: 24px;
+  display: inline-flex;
+}
+
+.sabt-logo p{
+  margin-bottom: 37px;
+}
+
+.MuiGrid-spacing-xs-3 {
+  width: calc(100% + 0px) !important;
+  margin: 0 !important; 
+}
+
+.makeStyles-root3-5 {
+  display: inline-block;
+  max-width: 250px !important;
+  text-align: right;
+  margin-right: 15px;
+}
+
+button.MuiButtonBase-root.MuiFab-root.add-food.MuiFab-primary{
+  width: 25px;
+    height: 25px;
+    padding: 0px;
+    font-size: 0.875rem;
+    min-width: 0;
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+    box-sizing: border-box;
+    min-height: 25px;
+}
+
+
+
+
+
+:root {
+  --surface-color: #eaf9ff;
+  --curve: 40;
+}
+
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.card {
+  position: relative;
+  display: block;
+  height: 100%;  
+  border-radius: calc(var(--curve) * 1px);
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.card__image {      
+  width: 100%;
+  height: auto;
+}
+
+.card__overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;      
+  border-radius: calc(var(--curve) * 1px);    
+  background-color: var(--surface-color);      
+  transform: translateY(100%);
+  transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+  transform: translateY(0);
+}
+
+.card__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  border-radius: calc(var(--curve) * 1px) 0 0 0;    
+  background-color: var(--surface-color);
+  transform: translateY(-100%);
+  transition: .2s ease-in-out;
+}
+
+.card__arc {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;      
+  z-index: 1;
+}
+
+.card__arc path {
+  fill: var(--surface-color);
+  d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+}       
+
+.card:hover .card__header {
+  transform: translateY(0);
+}
+
+.card__thumb {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;      
+  border-radius: 50%;      
+}
+
+.card__title {
+  font-size: 1em;
+  margin: 0 0 .3em;
+  color: #6A515E;
+}
+
+.card__tagline {
+  display: block;
+  margin: 1em 0;
+  font-family: "MockFlowFont";  
+  font-size: .8em; 
+  color: #D7BDCA;  
+}
+
+.card__status {
+  font-size: .8em;
+  color: #D7BDCA;
+}
+
+.card__description {
+  padding: 0 2em 2em;
+  margin: 0;
+  color: #D7BDCA;
+  font-family: "MockFlowFont";   
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}    
+
+
+.MuiFab-root {
+  width: 30px !important;
+  height: 30px!important;
+
+}
